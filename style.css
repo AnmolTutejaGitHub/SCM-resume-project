@@ -120,6 +120,10 @@ button:focus {
     background: radial-gradient(ellipse at left, rgba(197, 202, 213, 0.7) 0%, rgba(255, 255, 255, 0) 70%);
 }
 
+
+
+
+
 header {
     background-color: white;
     border-radius: 0 0 5px 5px;
