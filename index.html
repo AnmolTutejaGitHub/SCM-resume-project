@@ -1,201 +1,542 @@
+<!DOCTYPE html>
 <html lang="en">
-
   <head>
-      <meta charset="UTF-8" />
-      <meta name ="viewport" content="width = device-width, initial-scale = 1" >
-      <title>Bootcamp / CV</title>
-      <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Google+Sans" />
-      <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
-          rel="stylesheet" />
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1"
-          crossorigin="anonymous" />
-      <link rel="stylesheet" href="./style.css" />
-      <link rel="shortcut icon" href="./favicon.ico">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akash Kompelly</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/aos.css" />
+    <link rel="stylesheet" href="assets/css/line-awesome.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container flex-lg-column">
+        <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
+          <span class="fw-bold h3 d-block d-lg-none">Akash Kompelly</span>
+          <img
+            src="./assets/images/profilepic1.jpg"
+            class="d-none d-lg-block rounded-circle profilepic"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#services"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#work"
+                >Work</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#about"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#reviews"
+                >Reviews</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#blog"
+                >Blog</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- //NAV BAR -->
 
-<body> 
-    <div class="background gradient">
-    </div>
-    <div class="page">
-        <header>
-            <nav>
-                <a href="#about" class="selected" id='getAbout'>
-                    <span class="fas fa-user"></span>
-                    <span class="link">About</span>
-                </a>
-                <a href="#resume" id='getResume'>
-                    <span class="fas fa-file"></span>
-                    <span class="link">Resume</span>
-                </a>
-                <a href="#contact" id='getContact'>
-                    <span class="fas fa-at"></span>
-                    <span class="link">Contact</span>
-                </a>
-            </nav>
-        </header>
-        <main>
-            <section id="presentation" class="profile">
-                <div class="profile-background"></div>
-                <div>
-                    <div class="profile-image">
-                        <img src="./images/Anmol.jpeg">
-                    </div>
-                    <h1 class="profile-name" id="nombre">Anmol Tuteja</h1>
-                    <h2 class="profile-profession">Programmer</h2>
-                    <div class="profile-social" id="profile-social">
-                        <a href="www.dribbble.com" class="fab fa-dribbble"></a>
-                        <a href="www.twitter.com" class="fab fa-twitter"></a>
-                        <a href="www.github.com" class="fab fa-github"></a>
-                        <a href="www.spotify.com" class="fab fa-spotify"></a>
-                        <a href="www.stackoverflow.com" class="fab fa-stack-overflow"></a>
-                    </div>
+    <!-- CONTENT WRAPPER -->
+    <div id="content-wrapper">
+      <!-- HOME SECTION -->
+      <section id="home" class="full-hight px-lg-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10">
+              <h1 class="text-uppercase display-4 fw-bold" data-aos="fade-up">
+                I'm Akash Kompelly, a skilled
+                <span class="text-brand">Java full-stack developer</span>
+              </h1>
+              <p
+                class="lead mt-2 mb-3 fs-3"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                I'm delighted to have you here. Explore my work and discover the
+                world of innovative solutions I've crafted.
+              </p>
+              <div data-aos="fade-up" data-aos-delay="600">
+                <a href="#work" class="btn btn-brand fw-bold me-4">
+                  EXPLORE MY WORK</a
+                >
+                <a href="" class="custom-link num"> Call: +91 1234567891</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //HOME SECTION -->
+
+      <!-- SERVICES -->
+      <section id="services" class="full-hight px-lg-5">
+        <div class="container">
+          <div class="row p-4">
+            <div class="col-md-8" data-aos="fade-up">
+              <h6>SERVICES</h6>
+              <h1>Services That I Provide</h1>
+            </div>
+          </div>
+
+          <div class="row gy-4">
+            <div class="col-md-4" data-aos="fade-up">
+              <div class="bg-base p-4 rounded-4 shadow-effect">
+                <div class="iconbox">
+                  <i class="las la-feather"></i>
                 </div>
-                <div class="profile-buttons">
-                    <a href="/myCV.txt" download>DOWNLOAD CV <i class="fas fa-download"></i></a>
-                    <a href="#contact">CONTACT ME <i class="fas fa-arrow-right"></i></a>
+                <h5 class="mt-3 mb-4">Branding</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Eligendi eveniet ullam harum sapiente quam alias a fugiat est,
+                  nobis repellendus?
+                </p>
+                <a href="#" class="custom-link">See more</a>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+              <div class="bg-base p-4 rounded-4 shadow-effect">
+                <div class="iconbox">
+                  <i class="las la-pencil-ruler"></i>
                 </div>
-            </section>
-            <section id="about" class="about view">
-                <article class="about-aboutMe">
-                    <h3 class="title">About Me</h3>
-                    <div class="line-left">
-                        <p>I am Anmol Tuteja , a programmer from India. I have knowledge of css , c , java ,python ,javascript . I love to talk with you about our
-                            unique.</p>
-                        <div>
-                            <div>
-                                <span>AGE . . . . </span>18
-                            </div>
-                            <div>
-                                <span>RESIDENCE . . . . </span>India
-                            </div>
-                            <div>
-                                <span>FREELANCE . . . . </span>Available
-                            </div>
-                            <div>
-                                <span>ADDRESS . . . . </span>Panipat, India
-                            </div>
-                        </div>
-                    </div>
-                </article>
-                <article class="about-services">
-                    <h3 class="title">My Services</h3>
-                    <div class="line-left">
-                        <article class="line-down">
-                            <div class="fas fa-code"></div>
-                            <h4>WEB DEVELOPMENT</h4>
-                            <p>Modern and mobile-ready website that will help you reach all of your marketing.</p>
-                        </article>
-                        <article class="line-down">
-                            <div class="fas fa-music"></div>
-                            <h4>MUSIC WRITING</h4>
-                            <p>Music copying, transcription, arranging and composition services.</p>
-                        </article>
-                        <article>
-                            <div class="fas fa-bullhorn"></div>
-                            <h4>ADVETISING</h4>
-                            <p>Advertising services include television, radio, print, mail and web.</p>
-                        </article>
-                        <article>
-                            <div class="fas fa-gamepad"></div>
-                            <h4>GAME DEVELOPMENT</h4>
-                            <p>Developing memorable and unique mobile android, ios games.</p>
-                        </article>
-                    </div>
-                </article>
-            </section>
-            <section id="resume" class="resume">
-                <h3 class="title">Resume</h3>
-                <article class="resume-lines">
-                    <section class="resume-line line-left">
-                        <h4 class="line-down"> <i class="fas fa-university"></i> Education</h4>
-                        <article class="line-down">
-                            <div class="date">2023 - 2027</div>
-                            <h5 class="name"></h5>
-                            <h6 class="company">Chitkara University</h6>
-                            <p>Bachelor's Degree in Computer Science</p>
-                        </article>
-                    </section>
-                </article>
-                <article class="resume-skills">
-                    <h3 class="title">My Skills</h3>
-                    <div>
-                        <section class="line-left">
-                            <h4 class="line-down"> <i class="fas fa-tv"></i> DESIGN</h4>
-                            <div class="line-down">
-                                <div>Web Design</div>
-                                <div>
-                                    <div style="width: 70%"></div>
-                                </div>
-                            </div>
-                            <div class="line-down">
-                                <div>Photoshop</div>
-                                <div>
-                                    <div style="width: 66%"></div>
-                                </div>
-                            </div>
-                            <div>
-                                <div>Web Design</div>
-                                <div>
-                                    <div style="width: 86%"></div>
-                                </div>
-                            </div>
-                        </section>
-                        <section class="line-left">
-                            <h4 class="line-down"><i class="fas fa-code"></i> CODING</h4>
-                            <div class="line-down">
-                                <div>WordPress</div>
-                                <div>
-                                    <div style="width: 50%"></div>
-                                </div>
-                            </div>
-                            <div class="line-down">
-                                <div>Java</div>
-                                <div>
-                                    <div style="width: 40%"></div>
-                                </div>
-                            </div>
-                            <div class="line-down">
-                                <div>JavaScript</div>
-                                <div>
-                                    <div style="width: 95%"></div>
-                                </div>
-                            </div>
-                            <div>
-                                <div>HTML/CSS</div>
-                                <div>
-                                    <div style="width: 100%"></div>
-                                </div>
-                            </div>
-                            <div class="line-down">
-                                <div>Data Structures and Algorithms</div>
-                                <div>
-                                    <div style="width: 76%"></div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </article>
-            </section>
-            <section id="contact" class="contact">
-              <h3 class="title">Get in Touch</h3>
-              <div class="contact-information line-left">
-                <div>
-                  <span>ADDRESS . . . . </span> Panipat, India
+                <h5 class="mt-3 mb-4">UI/UX Design</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Eligendi eveniet ullam harum sapiente quam alias a fugiat est,
+                  nobis repellendus?
+                </p>
+                <a href="#" class="custom-link">See more</a>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+              <div class="bg-base p-4 rounded-4 shadow-effect">
+                <div class="iconbox">
+                  <i class="las la-laptop-code"></i>
                 </div>
-                <div>
-                  <span>EMAIL . . . . </span> tutejaanmol54@gmail.com
+                <h5 class="mt-3 mb-4">Web Designing</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Eligendi eveniet ullam harum sapiente quam alias a fugiat est,
+                  nobis repellendus?
+                </p>
+                <a href="#" class="custom-link">See more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //SERVICES -->
+
+      <!-- WORK -->
+      <section id="work" class="full-hight px-lg-5">
+        <div class="container gy-4">
+          <div class="row p-4">
+            <div class="col-md-8" data-aos="fade-up">
+              <h6>WORK</h6>
+              <h1>My Rectent Projects</h1>
+            </div>
+          </div>
+
+          <div class="row gy-4">
+            <div class="col-md-6 rounded-4" data-aos="fade-up">
+              <div class="card rounded-4 bg-base shadow-effect">
+                <div class="img rounded-4">
+                  <img src="./assets/images/project-1.jpg" class="rounded-4" />
                 </div>
-                <div>
-                  <span>PHONE . . . . </span> +91 8708751883
-                </div>
-                <div>
-                  <span>FREELANCE . . . . </span> Available
+                <div class="card-content p-3">
+                  <h4>Start up Loading Page</h4>
+                  <p class="text-white">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Asperiores facere fugiat quae officia sequi nemo! Aspernatur
+                    nesciunt ipsum nisi saepe!
+                  </p>
+                  <a href="#" class="custom-link">Read More</a>
                 </div>
               </div>
-            </section>
-        </main>
-    </div>
-    <script src="./script.js"></script>
-</body>
+            </div>
 
+            <div
+              class="col-md-6 rounded-4"
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
+              <div class="card rounded-4 bg-base shadow-effect">
+                <div class="img rounded-4">
+                  <img src="./assets/images/project-2.png" class="rounded-4" />
+                </div>
+                <div class="card-content p-3">
+                  <h4>Start up Loading Page</h4>
+                  <p class="text-white">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Asperiores facere fugiat quae officia sequi nemo! Aspernatur
+                    nesciunt ipsum nisi saepe!
+                  </p>
+                  <a href="#" class="custom-link">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 rounded-4" data-aos="fade-up">
+              <div class="card rounded-4 bg-base shadow-effect">
+                <div class="img rounded-4">
+                  <img src="./assets/images/project-3.png" class="rounded-4" />
+                </div>
+                <div class="card-content p-3">
+                  <h4>Start up Loading Page</h4>
+                  <p class="text-white">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Asperiores facere fugiat quae officia sequi nemo! Aspernatur
+                    nesciunt ipsum nisi saepe!
+                  </p>
+                  <a href="#" class="custom-link">Read More</a>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-md-6 rounded-4"
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
+              <div class="card rounded-4 bg-base shadow-effect">
+                <div class="img rounded-4">
+                  <img src="./assets/images/project-4.png" class="rounded-4" />
+                </div>
+                <div class="card-content p-3">
+                  <h4>Start up Loading Page</h4>
+                  <p class="text-white">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Asperiores facere fugiat quae officia sequi nemo! Aspernatur
+                    nesciunt ipsum nisi saepe!
+                  </p>
+                  <a href="#" class="custom-link">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //WORK -->
+
+      <!-- ABOUT -->
+      <section id="about" class="full-hight px-lg-5">
+        <div class="container gy-4">
+          <div class="row p-4">
+            <div class="col-md-8" data-aos="fade-up">
+              <h6>ABOUT</h6>
+              <h1>Education</h1>
+            </div>
+          </div>
+
+          <div class="row mb-4">
+            <div class="col-md-12" data-aos="fade-up" data-aos-delay="300">
+              <div class="bg-base p-4 rounded-4 shadow-effect">
+                <h5 class="mt-3 mb-4">Master of Software Engineering</h5>
+                <h6 class="text-brand">
+                  De Mars University Venston Bay (2015 - 2020)
+                </h6>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Eligendi eveniet ullam harum sapiente quam alias a fugiat est,
+                  nobis repellendus?
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mb-4">
+            <div class="col-md-12" data-aos="fade-up" data-aos-delay="600">
+              <div class="bg-base p-4 rounded-4 shadow-effect">
+                <h5 class="mt-3 mb-4">Master of Software Engineering</h5>
+                <h6 class="text-brand">
+                  De Mars University Venston Bay (2015 - 2020)
+                </h6>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Eligendi eveniet ullam harum sapiente quam alias a fugiat est,
+                  nobis repellendus?
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row mb-4">
+            <div class="col-md-12" data-aos="fade-up" data-aos-delay="900">
+              <div class="bg-base p-4 rounded-4 shadow-effect">
+                <h5 class="mt-3 mb-4">Master of Software Engineering</h5>
+                <h6 class="text-brand">
+                  De Mars University Venston Bay (2015 - 2020)
+                </h6>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Eligendi eveniet ullam harum sapiente quam alias a fugiat est,
+                  nobis repellendus?
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //ABOUT -->
+
+      <!-- REVIEWS -->
+      <section id="reviews" class="full-hight px-lg-5">
+        <div class="container gy-4">
+          <div class="row p-4">
+            <div class="col-md-8" data-aos="fade-up">
+              <h6>REVIEWS</h6>
+              <h1>What my subscribers say about me</h1>
+            </div>
+
+            <div class="row gy-3 h6">
+              <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="p-4 shadow-effect bg-base py-4 rounded-4">
+                  <div class="stars rounded-4 mb-3">
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsum quam laudantium repellendus non corporis tenetur quas
+                    ad repellat labore qui.
+                  </p>
+                  <div class="person">
+                    <h3>Madhu Rottela</h3>
+                    <p>Instagram</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4" data-aos="fade-up" data-aos-delay="600">
+                <div class="p-4 shadow-effect bg-base py-4 rounded-4">
+                  <div class="stars rounded-4 mb-3">
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsum quam laudantium repellendus non corporis tenetur quas
+                    ad repellat labore qui.
+                  </p>
+                  <div class="person">
+                    <h3>Dev</h3>
+                    <p>Instagram</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4" data-aos="fade-up" data-aos-delay="900">
+                <div class="p-4 shadow-effect bg-base py-4 rounded-4">
+                  <div class="stars rounded-4 mb-3">
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                    <i class="las la-star"></i>
+                  </div>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Ipsum quam laudantium repellendus non corporis tenetur quas
+                    ad repellat labore qui.
+                  </p>
+                  <div class="person">
+                    <h3>Rohit Ravinder</h3>
+                    <p>Instagram</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //REVIEWS -->
+
+      <!-- BLOG -->
+      <section id="blog" class="full-hight px-lg-5">
+        <div class="container gy-4">
+          <div class="row p-4">
+            <div class="col-md-8" data-aos="fade-up">
+              <h6>BLOG</h6>
+              <h1>My BLog Posts</h1>
+            </div>
+
+            <div class="row gy-4">
+              <div class="col-md-4" data-aos="fade-up" data-aos-delay="">
+                <div class="card rounded-4 bg-base shadow-effect gy-4">
+                  <div class="img rounded-4">
+                    <img
+                      src="./assets/images/blog-post-1.jpg"
+                      class="rounded-4"
+                    />
+                  </div>
+                  <div class="card-content p-3">
+                    <p class="text-brand mb-2">20 Dec, 2022</p>
+                    <h4 class="mb-4">
+                      Design a creative landing page using Bootstrap 5
+                    </h4>
+                    <a href="#" class="custom-link">Read More</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="card rounded-4 bg-base shadow-effect gy-4">
+                  <div class="img rounded-4">
+                    <img
+                      src="./assets/images/blog-post-2.jpg"
+                      class="rounded-4"
+                    />
+                  </div>
+                  <div class="card-content p-3">
+                    <p class="text-brand mb-2">20 Dec, 2022</p>
+                    <h4 class="mb-4">
+                      Design a creative landing page using Bootstrap 5
+                    </h4>
+                    <a href="#" class="custom-link">Read More</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+                <div class="card rounded-4 bg-base shadow-effect gy-4">
+                  <div class="img rounded-4">
+                    <img
+                      src="./assets/images/blog-post-3.jpg"
+                      class="rounded-4"
+                    />
+                  </div>
+                  <div class="card-content p-3">
+                    <p class="text-brand mb-2">20 Dec, 2022</p>
+                    <h4 class="mb-4">
+                      Design a creative landing page using Bootstrap 5
+                    </h4>
+                    <a href="#" class="custom-link">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //BLOG -->
+
+      <!-- CONTACT -->
+      <section id="contact" class="full-hight px-lg-5">
+        <div class="container gy-4">
+          <div class="row justify-content-center text-center p-4">
+            <div class="col-md-8 pb-4" data-aos="fade-up">
+              <h6>CONTACT</h6>
+              <h1>Interested in working together? Let's talk</h1>
+            </div>
+            <div class="col-md-8">
+              <form
+                action=""
+                class="row g-lg-3 gy-2"
+                data-aos="fade-up"
+                data-aos-delay="300"
+              >
+                <div class="form-group col-md-6">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter your name "
+                  />
+                </div>
+                <div class="form-group col-md-6">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Enter your email "
+                  />
+                </div>
+                <div class="col-md-12 form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Enter your subject "
+                  />
+                </div>
+                <div class="col-md-12 form-group">
+                  <textarea
+                    rows="5"
+                    class="form-control"
+                    placeholder="Enter your message "
+                  ></textarea>
+                </div>
+
+                <div class="col-md-12 form-group d-grid">
+                  <button class="btn btn-brand">Contact me</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //CONTACT -->
+
+      <!-- FOOTER -->
+      <footer class="px-lg-5 py-4">
+        <div class="container m-4">
+          <div class="row justify-content-between gy-4">
+            <div class="col-auto mb-0">
+              <p>Designed By Akash Kompelly</p>
+            </div>
+            <div class="social-icons col-auto">
+              <a href=""><i class="lab la-linkedin-in"></i></a>
+              <a href=""><i class="lab la-github"></i></a>
+              <a href=""><i class="lab la-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- //FOOTER -->
+    </div>
+    <!--//CONTENT WRAPPER -->
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
